@@ -1,0 +1,15 @@
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\bin\Debug\net9.0\logicaCsharp.exe
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\bin\Debug\net9.0\logicaCsharp.deps.json
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\bin\Debug\net9.0\logicaCsharp.runtimeconfig.json
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\bin\Debug\net9.0\logicaCsharp.dll
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\bin\Debug\net9.0\logicaCsharp.pdb
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\obj\Debug\net9.0\logicaCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\obj\Debug\net9.0\logicaCsharp.AssemblyInfoInputs.cache
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\obj\Debug\net9.0\logicaCsharp.AssemblyInfo.cs
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\obj\Debug\net9.0\logicaCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\obj\Debug\net9.0\logicaCsharp.sourcelink.json
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\obj\Debug\net9.0\logicaCsharp.dll
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\obj\Debug\net9.0\refint\logicaCsharp.dll
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\obj\Debug\net9.0\logicaCsharp.pdb
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\obj\Debug\net9.0\logicaCsharp.genruntimeconfig.cache
+C:\Users\Aluno\Desktop\AvancaTech_dotnet\aula2\logicaCsharp\obj\Debug\net9.0\ref\logicaCsharp.dll
