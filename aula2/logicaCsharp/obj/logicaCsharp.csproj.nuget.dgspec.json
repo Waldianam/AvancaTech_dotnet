@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\aula2\\logicaCsharp\\logicaCsharp.csproj": {}
+    "C:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\aula2\\logicaCsharp\\logicaCsharp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\aula2\\logicaCsharp\\logicaCsharp.csproj": {
+    "C:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\aula2\\logicaCsharp\\logicaCsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\aula2\\logicaCsharp\\logicaCsharp.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\aula2\\logicaCsharp\\logicaCsharp.csproj",
         "projectName": "logicaCsharp",
-        "projectPath": "c:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\aula2\\logicaCsharp\\logicaCsharp.csproj",
+        "projectPath": "C:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\aula2\\logicaCsharp\\logicaCsharp.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\aula2\\logicaCsharp\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\aula2\\logicaCsharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
