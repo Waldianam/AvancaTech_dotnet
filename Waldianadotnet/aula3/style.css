@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    color: #752f2f;
+}
+
+.navbar {
+    background-color: #8c7f7f;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    width: 120px;
+    border-right: 1px solid #250202;
+}
+
+.navbar li a {
+    color: #ffff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover{
+    background-color : #c74949;
+}
+
+.navbar li a.active{
+    background-color: beige;
+    color: black;
+}
+
+
+
+
+

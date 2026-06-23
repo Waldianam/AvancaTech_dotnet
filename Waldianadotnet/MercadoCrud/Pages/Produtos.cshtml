@@ -1,0 +1,58 @@
+@page
+@model MercadoCrud.Pages.ProdutosModel
+
+<div class="container">
+
+    <h1 class="text-center my-4">
+        Mercado CRUD
+    </h1>
+
+    <form method="post" class="mb-5">
+
+        <input asp-for="Nome"
+               class="form-control mb-2"
+               placeholder="Nome">
+
+        <input asp-for="Preco"
+               class="form-control mb-2"
+               placeholder="Preço">
+
+         <input asp-for= "Imagem" 
+                class= "form-control mb-2"
+                placeholder= "Ex:Arroz.jpg" > 
+
+
+        <button class="btn btn-success">
+            Cadastrar
+        </button>
+
+    </form>
+
+    <div class="row">
+
+        @foreach(var produto in Model.Produtos)
+        {
+            <div class="col-md-3 mb-4">
+
+                <div class="card">
+
+                    <img src="/img/@produto.Imagem"
+                         class="card-img-top"
+                         style="height:200px;object-fit:cover;">
+
+                    <div class="card-body text-center">
+
+                        <h5>@produto.Nome</h5>
+
+                        <h4>R$ @produto.Preco</h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>

@@ -1,0 +1,58 @@
+@page
+@model EscolaCrud.Pages.AlunoModel
+
+<div class="container mt-5">
+    <h1 class="mb-4">
+        Cadastrar Alunos
+    </h1>
+    <a href="/CadastrarAluno"
+       class="btn btn-success mb-3">
+        Novo Aluno
+    </a>
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Endereco</th>
+                <th>Unidades</th>
+                <th>Serie</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach(var item in Model.Aluno)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Nome</td>
+                <td>@item.Email</td>
+                <td>@item.Telefone</td>
+                <td>@item.Endereco</td>
+                <td>@item.Unidades</td>
+                <td>@item.Serie</td>
+                
+                
+
+                <td>
+                    <a href="/EditarAluno?id=@item.Id"
+                       class="btn btn-warning">
+                        Editar
+                    </a>
+                    <a href="/ExcluirAluno?id=@item.Id"
+                       class="btn btn-danger">
+                        Excluir
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+

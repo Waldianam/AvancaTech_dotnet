@@ -1,0 +1,52 @@
+﻿@page
+@model AULACRUD.Pages.Indexmodel
+
+<div class= "container mt-5">
+    <h1>Crud Escola com ASP.NET</h1>
+
+    <form method="post">
+        <label >Digite o seu nome</label>
+        <input asp-for = "NovoAluno.Nome" class="form-control mb-3">
+        <br><br>
+
+        <label>Digite a sua Idade</label>
+        <input asp-for = "NovoAluno.Idade" class="form-control mb-3">
+        <br><br>
+
+        <button class="btn btn-primary" >Salvar</button>
+
+    </form>
+
+    <hr>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>ID</th>
+            <th>NOME</th>
+            <th>IDADE</th>
+        </tr>
+
+        @foreach( var aluno in Model.ListaAlunos)
+        {
+            <tr>
+                <td>@aluno.Id</td>
+                <td>@aluno.Nome</td>
+                <td>@aluno.Idade</td>
+            
+            </tr>
+        }
+    </table>
+        
+    
+
+
+
+
+    
+
+
+
+
+
+
+</div>

@@ -1,0 +1,41 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+}
+@{
+    string nome = "Waldiana Marques";
+    string pais= "Argentina";
+    string cidade = "São Paulo";
+    string sobrenome= "Marques";
+    string curso= "Desenvolvimento .NET";
+    string escola = "Avança Tech";
+
+    int idade = 47;
+    int anoNascimento = 1978;
+    int anoAtual = 2026;
+
+    int num1 = 100;
+    int num2=  2;
+
+}
+<h1>Ola, Mundo!!!</h1>
+<h2>Primeiro Site com Asp.net</h2>
+<p>Seja bem vindo ao mundo da programação, @nome</p>
+<p>O pais é: @pais</p>
+<p>A cidade é: @cidade</p>
+<p>O meu sobrenome é: @sobrenome</p>
+<p>minha idade é: @idade</p>
+<p>Meu ano de Nacimento é: @anoNascimento</p>
+<p>O ano atual é: @anoAtual</p>
+
+<p> Soma @( num1 + num2)</p>
+<p> Multiplicação @(num1 * num2)</p>
+<p> Divisão @(num1 / num2)</p>
+<p> subtração @(num1 - num2)</p>
+
+<p>@nome tem @idade anos e faz o @curso na @escola</p>
+
+
+

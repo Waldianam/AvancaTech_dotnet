@@ -1,0 +1,49 @@
+@page
+@model CopaCrud.Pages.ExcluirSelecaoModel
+
+
+<div class="container mt-5">
+    <h1 class="text-danger mb-4"> Excluir Seleção </h1>
+
+
+    <div class="alert alert-danger"> Tem certeza que deseja excluir esta seleção? </div>
+
+
+    <form method="post">
+        <input asp-for="Selecao.Id" type="hidden">
+
+
+        <div class="mb-3">
+            <label class="form-label"> Nome </label>
+            <input asp-for="Selecao.Nome" class="form-control" readonly>
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label"> Grupo </label>
+            <input asp-for="Selecao.Grupo" class="form-control" readonly>
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label"> Continente </label>
+            <input asp-for="Selecao.Continente" class="form-control" readonly>
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label"> Títulos </label>
+            <input asp-for="Selecao.Titulos" class="form-control" readonly>
+        </div>
+
+
+        <button class="btn btn-danger"> Confirmar Exclusão </button>
+
+
+        <a href="/Selecoes" class="btn btn-secondary"> Cancelar </a>
+    </form>
+</div>
+
+
+
+

@@ -1,0 +1,51 @@
+@page
+@model CopaCrud.Pages.SelecoesModel
+<div class="container mt-5">
+    <h1 class="mb-4">
+        Seleções da Copa do Mundo
+    </h1>
+    <a href="/CadastrarSelecao"
+       class="btn btn-success mb-3">
+        Nova Seleção
+    </a>
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Grupo</th>
+                <th>Continente</th>
+                <th>Títulos</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach(var item in Model.Selecoes)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Nome</td>
+                <td>@item.Grupo</td>
+                <td>@item.Continente</td>
+                <td>@item.Titulos</td>
+                <td>
+                    <a href="/EditarSelecao?id=@item.Id"
+                       class="btn btn-warning">
+                        Editar
+                    </a>
+                    <a href="/ExcluirSelecao?id=@item.Id"
+                       class="btn btn-danger">
+                        Excluir
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+

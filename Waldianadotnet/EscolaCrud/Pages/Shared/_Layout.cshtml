@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Escola Eugênia de Carvalho</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EscolaCrud.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <nav class= "bg-primary p-3">
+        <div class= "container d-flex justify-content-around align-items-center">
+            <img src="img/fotoescola.png" alt="logo" class="img-fluid" width="80">
+
+            <a href="/" class="text-white fs-5 navbar-brand fw-bold">Escola Eugênia de Carvalho</a>
+
+            <div  class="d-flex gap-3">
+                <a href="/" class= "btn btn-outline-warning text-white">Home</a>
+                <a href="/cadastraraluno" class= "btn btn-outline-warning text-white">Aluno </a>
+                <a href="/Localização" class= "btn btn-outline-warning text-white">Localização</a>
+                <a href="/Unidades" class= "btn btn-outline-warning text-white">Unidades</a>
+                <a href="/Sobre" class= "btn btn-outline-warning text-white">Sobre</a>
+            </div>
+
+        </div>
+    </nav>
+        
+    
+    <div >
+        <main role="main" >
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2026 - Escola Eugênia de Carvalho - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

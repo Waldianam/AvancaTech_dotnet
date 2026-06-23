@@ -1,0 +1,49 @@
+.menu{
+
+
+  background-color:#fefe;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links{
+  display: flex;
+  gap: 60px;
+  color:#af2828;
+
+
+
+}
+.links a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 30px;
+  
+}
+.rodape{
+  background-color: #af2828;
+  padding: 30px;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.rodape-links {
+  display: flex ;
+  gap: 30px;
+  
+}
+.rodape-links a{
+  text-decoration: none;
+  color:white;
+  padding: 50px;
+}
+
+
+
+
+
