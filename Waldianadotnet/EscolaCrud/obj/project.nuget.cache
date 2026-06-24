@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2BpR+8LY2+I=",
+  "dgSpecHash": "oVSUnzD6/YQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Desktop\\Waldianadotnet\\EscolaCrud\\EscolaCrud.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\Waldianadotnet\\EscolaCrud\\EscolaCrud.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",
