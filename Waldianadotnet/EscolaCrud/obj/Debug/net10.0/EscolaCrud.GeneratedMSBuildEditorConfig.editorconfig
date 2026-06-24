@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cmFyQWx1bm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Aluno/Desktop/AvancaTech_dotnet/Waldianadotnet/EscolaCrud/Pages/Contato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGF0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Aluno/Desktop/AvancaTech_dotnet/Waldianadotnet/EscolaCrud/Pages/EditarAluno.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFyQWx1bm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,10 +50,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aluno/Desktop/AvancaTech_dotnet/Waldianadotnet/EscolaCrud/Pages/Localizacao.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYWxpemFjYW8uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Aluno/Desktop/AvancaTech_dotnet/Waldianadotnet/EscolaCrud/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Aluno/Desktop/AvancaTech_dotnet/Waldianadotnet/EscolaCrud/Pages/Sobre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29icmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/AvancaTech_dotnet/Waldianadotnet/EscolaCrud/Pages/Unidades.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVW5pZGFkZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Aluno/Desktop/AvancaTech_dotnet/Waldianadotnet/EscolaCrud/Pages/_ViewImports.cshtml]

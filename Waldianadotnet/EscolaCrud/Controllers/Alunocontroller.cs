@@ -32,7 +32,7 @@ namespace EscolaCrud.Controllers
                             Telefone = reader["Telefone"].ToString()!,
                             Endereco = Convert.ToInt32(reader["Endereco"]),
                             Unidades = Convert.ToInt32(reader["Unidades"]),
-                            Serie = Convert.ToInt32(reader["Serie"])
+                            Serie = reader["serie"].ToString()!
                         });
                     }
                 }
@@ -93,7 +93,7 @@ namespace EscolaCrud.Controllers
                         aluno.Telefone = reader["telefone"].ToString()!;
                         aluno.Endereco = Convert.ToInt32(reader["endereco"]);
                         aluno.Unidades = Convert.ToInt32(reader["unidades"]);
-                        aluno.Serie = Convert.ToInt32(reader["serie"]);
+                        aluno.Serie = reader["serie"].ToString()!;
                     }
                 }
             }
@@ -113,7 +113,7 @@ namespace EscolaCrud.Controllers
                         email=@email,
                         telefone=@telefone,
                         endereco=@endereco,
-                        unidades=@unidades
+                        unidades=@unidades,
                         serie=@serie
                     WHERE id=@id";
 

@@ -18,7 +18,7 @@ namespace EscolaCrud.Models
 
         public int Unidades { get; set; }
 
-         public int Serie { get; set; }
+         public string Serie { get; set; }= "";
    }
 }
    

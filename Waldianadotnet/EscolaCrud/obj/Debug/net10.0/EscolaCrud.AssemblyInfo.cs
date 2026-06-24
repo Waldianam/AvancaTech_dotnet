@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EscolaCrud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+012e45efe93ea88a8d134771d95dd014b42d4ddc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bec41c16f8b27e39a16d9f85e418a45ca71d9576")]
 [assembly: System.Reflection.AssemblyProductAttribute("EscolaCrud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EscolaCrud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
