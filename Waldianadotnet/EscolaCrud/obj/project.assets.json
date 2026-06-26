@@ -488,31 +488,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aluno\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\Waldianadotnet\\EscolaCrud\\EscolaCrud.csproj",
+      "projectUniqueName": "C:\\Users\\Administrador\\Documents\\GitHub\\AvancaTech_dotnet\\Waldianadotnet\\EscolaCrud\\EscolaCrud.csproj",
       "projectName": "EscolaCrud",
-      "projectPath": "C:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\Waldianadotnet\\EscolaCrud\\EscolaCrud.csproj",
-      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Desktop\\AvancaTech_dotnet\\Waldianadotnet\\EscolaCrud\\obj\\",
+      "projectPath": "C:\\Users\\Administrador\\Documents\\GitHub\\AvancaTech_dotnet\\Waldianadotnet\\EscolaCrud\\EscolaCrud.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrador\\Documents\\GitHub\\AvancaTech_dotnet\\Waldianadotnet\\EscolaCrud\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -563,7 +556,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300-preview.0.26177.108/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
